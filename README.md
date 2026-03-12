@@ -1,0 +1,38 @@
+# Claude Code 学习笔记
+
+这是一个关于 Claude Code 的学习笔记集合，记录使用经验、技巧和最佳实践。
+
+## 文档索引
+
+| 编号 | 文档 | 描述 |
+|------|------|------|
+| 01 | [Claude Code 介绍](./01-claude-code-介绍.md) | Claude Code 的简介、核心特性、安装方式及使用环境 |
+| 02 | [Claude Code 命令大全](./02-claude-code-命令大全.md) | 完整的 CLI 命令参考，涵盖启动、会话管理、模型选择等 |
+
+## 快速开始
+
+```bash
+# 安装 Claude Code (macOS/Linux)
+curl -fsSL https://claude.ai/install.sh | bash
+
+# 启动交互式会话
+claude
+
+# 使用初始提示启动
+claude "explain this project"
+```
+
+## 项目结构
+
+```
+.
+├── CLAUDE.md                    # Claude Code 工作指南
+├── README.md                    # 本文档
+├── 01-claude-code-介绍.md        # Claude Code 介绍
+├── 02-claude-code-命令大全.md    # 命令参考
+└── scripts/                     # 可执行脚本目录
+```
+
+## 贡献
+
+欢迎补充更多学习笔记和实用脚本！
