@@ -6,10 +6,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 本目录是一个关于claude code的学习笔记集合，可执行的脚本文件与描述性的文档需要分类存放。
 
+
+## 语言风格
+
+- 文字描述口语化，通俗易懂，幽默又不失严谨
+
 ## 文件组织规范
 
 - **描述性文档**：存放于当前目录，使用数字前缀编号（如 `01-xxx.md`、`02-xxx.md`）
 - **可执行脚本**：统一存放于 `scripts/` 子目录下
+- 每次新增的笔记自动在README.md文档中添加索引
 
 ## Python 脚本执行
 
