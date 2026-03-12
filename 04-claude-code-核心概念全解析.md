@@ -10,6 +10,8 @@
 
 ## Memory：Claude 的"记事本"
 
+> **官方文档**：[Memory - Claude Code Docs](https://code.claude.com/docs/en/memory)
+
 Claude Code 每次会话都从一个干净的上下文窗口开始，那它怎么记住你之前告诉它的事儿呢？答案就是两套记忆系统：
 
 ```
@@ -145,6 +147,8 @@ When compressing, preserve in priority order:
 
 ## Skills：给 Claude 加技能包
 
+> **官方文档**：[Skills - Claude Code Docs](https://code.claude.com/docs/en/skills)
+
 Skills 是按需加载的知识和工作流。简单说就是：**你写一个 SKILL.md，Claude 看到相关场景就会用**。
 
 ### 一个 Skill 的样子
@@ -230,6 +234,8 @@ Claude Code 自带几个实用的 Skills：
 
 ## MCP：连接外部工具的"万能插头"
 
+> **官方文档**：[MCP - Claude Code Docs](https://code.claude.com/docs/en/mcp)
+
 MCP（Model Context Protocol）是个开源标准，让 Claude 能连接各种外部工具和数据源。
 
 ### MCP 能干啥？
@@ -288,6 +294,8 @@ mcp__github__search_repositories  # GitHub 服务器的搜索工具
 ---
 
 ## Hooks：自动化的"守门员"
+
+> **官方文档**：[Hooks - Claude Code Docs](https://code.claude.com/docs/en/hooks)
 
 Hooks 是在特定时间点自动执行的脚本或 HTTP 请求。简单说就是：**某些事情发生时，自动跑一段代码**。
 
