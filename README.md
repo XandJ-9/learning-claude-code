@@ -11,6 +11,7 @@
 | 03 | [Claude Code 架构与工程实践](./03-claude-code-架构与工程实践.md) | 氪金换来的实战经验：六层架构、上下文治理、Skills 设计 |
 | 04 | [Claude Code 核心概念全解析](./04-claude-code-核心概念全解析.md) | Memory、Skills、MCP、Hooks 等核心概念的大白话解析 |
 | 05 | [Claude Code 记忆机制深度解析](./05-claude-code-记忆机制深度解析.md) | CLAUDE.md 与 Auto Memory 详解，双记忆系统全指南 |
+| 06 | [Claude Code 规则机制深度解析](./06-claude-code-规则机制深度解析.md) | 模块化规则系统详解，路径特定规则、层级继承与最佳实践 |
 
 ## 快速开始
 
@@ -36,6 +37,7 @@ claude "explain this project"
 ├── 03-claude-code-架构与工程实践.md     # 架构与工程实践
 ├── 04-claude-code-核心概念全解析.md     # Memory、Skills、MCP、Hooks 等核心概念
 ├── 05-claude-code-记忆机制深度解析.md     # CLAUDE.md 与 Auto Memory 详解
+├── 06-claude-code-规则机制深度解析.md     # 模块化规则系统详解
 └── scripts/                           # 可执行脚本目录
 ```
 
